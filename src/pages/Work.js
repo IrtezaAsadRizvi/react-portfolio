@@ -1,4 +1,19 @@
+import { useGSAP } from "@gsap/react"
+import gsap from "gsap"
+
 const Work = () => {
+    useGSAP(() => {
+        gsap.to('.card', {
+            scale: 1,
+            opacity: 1,
+            duration: 0.5,
+            delay: 0.5,
+            stagger: {
+                from: "random",
+                amount: 0.3
+            }
+        })
+    }, [])
     return (
         <main className="grid grid-cols-1 gap-4 pb-4 w-full screen-max-width mt-20 mb-20">
             <div className="grid-item col-span-1 ">

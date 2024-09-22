@@ -4,9 +4,22 @@ import ExperienceCard from "../components/ExperienceCard"
 import StudyCard from "../components/StudyCard"
 import SocialsCard from "../components/SocialsCard"
 
-
+import { useGSAP } from "@gsap/react"
+import gsap from "gsap"
 
 const About = () => {
+    useGSAP(() => {
+        gsap.to('.card', {
+            scale: 1,
+            opacity: 1,
+            duration: 0.5,
+            delay: 0.5,
+            stagger: {
+                from: "random",
+                amount: 0.3
+            }
+        })
+    }, [])
     return (
         <main className="w-full screen-max-width mt-20 mb-20 p-10 text-black">
             <section className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4">
