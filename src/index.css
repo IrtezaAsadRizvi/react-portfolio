@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb:hover {
         @apply rounded-3xl px-2 py-2 w-full h-auto text-gray-100 bg-gradient-to-r from-white/40 to-white/10 backdrop-blur-[20px] 
             shadow-[0_1px_24px_-1px_rgba(0,0,0,0.1)] transition-transform duration-200 ease-out will-change-transform box-border
             after:absolute after:w-full after:h-full after:top-0 after:left-0 after:rounded-3xl after:bg-frosted after:bg-repeat 
-            after:bg-size-80 after:pointer-events-none
+            after:bg-size-80 after:pointer-events-none opacity-0 scale-90
     }
     .animated-background {
         @apply fixed top-0 left-0 right-0 bottom-0 -z-10 block w-full h-full

@@ -8,7 +8,22 @@ import ProfilesCard from "../components/ProfilesCard"
 import CountsCard from "../components/CountsCard"
 import ContactBannerCard from "../components/ContactBannerCard" 
 
+import { useGSAP } from "@gsap/react"
+import gsap from "gsap"
+
 const Home = () => {
+    useGSAP(() => {
+        gsap.to('.card', {
+            scale: 1,
+            opacity: 1,
+            duration: 0.5,
+            delay: 0.5,
+            stagger: {
+                from: "random",
+                amount: 0.3
+            }
+        })
+    }, [])
     return (
         <main className="w-full screen-max-width grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 grid-flow-dense gap-4 mt-20 mb-20 p-10 text-black">
             <div className="grid-item card col-span-1 sm:col-span-2 row-span-1 sm:row-span-4"><IntroductionCard/></div>
