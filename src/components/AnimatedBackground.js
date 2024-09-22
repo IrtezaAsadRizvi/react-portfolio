@@ -15,7 +15,7 @@ const AnimatedBackground = () => {
         document.addEventListener('scroll', () => {
             let vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
             
-            let incrementor = Math.max(window.scrollY / 100, 1);
+            let incrementor = Math.max(window.scrollY / 170, 1);
             halo.setOptions({
                 size: incrementor
             })
