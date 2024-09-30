@@ -22,7 +22,7 @@ const AnimatedBackground = () => {
         })
     }, [])
     return (
-        <div id="vanta" className='animated-background'></div>
+        <div id="vanta" className='animated-background opacity-50'></div>
     );
 };
 
