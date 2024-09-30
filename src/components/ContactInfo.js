@@ -37,10 +37,10 @@ const ContactInfo = () => {
             <h3 className="text-base uppercase text-white font-semibold mb-6 mt-10 ">Reach out</h3>
             <div className="flex justify-start items-center gap-2">
                 {Socials.slice(0, 3).map((item, index) => (
-                    <a className="h-20 w-20 rounded-full bg-gray-200 mx-1 flex items-center justify-center bg-opacity-30"
+                    <a className="h-20 w-20 rounded-full bg-gray-200 mx-1 flex items-center justify-center bg-opacity-30 group"
                         key={index}
                         href={item.url} target="_blank" rel="noreferrer">
-                        <img className="h-12 w-12" src={item.icon}  alt={item.icon}/>
+                        <img className="h-12 w-12 group-hover:scale-110 transition-transform duration-300" src={item.icon}  alt={item.icon}/>
                     </a>
                 ))}
             </div>
