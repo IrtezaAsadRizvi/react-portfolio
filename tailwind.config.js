@@ -33,6 +33,9 @@ module.exports = {
                 'starIcon': 'url("../public/assets/images/star.svg")',
                 'starBigIcon': 'url("../public/assets/images/star-big.png")',
             },
+            backgroundImage: {
+                'custom-gradient': 'linear-gradient(353deg, rgba(29,33,76,1) 0%, rgba(250,193,39,1) 75%)',
+            },
         },
     },
     content: [
