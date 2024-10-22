@@ -11,8 +11,8 @@ export const Counts = [
     { label: 'Total projects', count: '220' }
 ]
 export const Experience = [
-    { title: 'Full-stack Developer', employer: 'Sheba XYZ', website: 'https://www.sheba.xyz/', duration: 'FEB 2018 - JUL 2021', localtion: 'Canada, remote' },
-    { title: 'Software Engineer', employer: 'Transmedia Inc.', website: 'https://www.trmedia.ca/', duration: 'AUG 2021 - Ongoing', localtion: 'Bangladesh' },
+    { title: 'Software Engineer', employer: 'Transmedia Inc.', website: 'https://www.trmedia.ca/', duration: 'AUG 2021 - Ongoing', localtion: 'Canada, remote' },
+    { title: 'Full-stack Developer', employer: 'Sheba XYZ', website: 'https://www.sheba.xyz/', duration: 'FEB 2018 - JUL 2021', localtion: 'Bangladesh' },
     { title: 'Full-Stack Web developer', employer: '', website: null, duration: 'Freelancer', localtion: 'Remote' },
 ]
 export const Study = [
