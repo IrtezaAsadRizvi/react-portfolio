@@ -5,8 +5,8 @@ const IntroductionCard = () => {
     return (
         <div className="group">
             <NavLink className="card-link" to="/about" />
-            <div className="grid grid-cols-2 p-5">
-                <div className="h-auto col-span-1 bg-gradient-to-r from-yellow-300 to-amber-400 rounded-[30px_0_30px_0] overflow-hidden">
+            <div className="grid grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 p-5">
+                <div className="h-fit sm:h-auto col-span-1 bg-gradient-to-r from-yellow-300 to-amber-400 rounded-[30px_0_30px_0] overflow-hidden">
                     <img src={ImageSelf}  alt='Self'/>
                 </div>
                 <div className="h-auto col-span-1 pl-8 pt-8">

@@ -18,7 +18,7 @@ const Header = () => {
                 ))}
             </nav>
             <a href="https://docs.google.com/document/d/e/2PACX-1vRBtAqEK5cQ_QAdegOyU2alKCgmM3Zt79emzpZ_-LqT9xHdXhKGB1B-cnP2PpPaSg/pub" target="_blank"
-                className='card !px-6 py-2 rounded-3xl hidden sm:!inline-block !w-auto hover:!scale-110 transition-transform duration-300'>
+                className='card !px-6 py-2 rounded-3xl !inline-block !w-auto hover:!scale-110 transition-transform duration-300'>
                     My Resume
             </a>
         </header>
