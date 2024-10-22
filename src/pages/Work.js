@@ -15,7 +15,7 @@ const Work = () => {
         })
     }, [])
     return (
-        <main className="grid grid-cols-1 gap-4 pb-4 w-full screen-max-width mt-20 mb-20">
+        <main className="grid grid-cols-1 gap-4 pb-4 w-full p-6 md:p-10 screen-max-width mt-20 mb-20">
             <div className="grid-item col-span-1 ">
                 <div className="card text-center ">
                     <p className="text-lg py-7 px-5">

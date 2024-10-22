@@ -25,7 +25,7 @@ const Home = () => {
         })
     }, [])
     return (
-        <main className="w-full screen-max-width grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 grid-flow-dense gap-4 mt-20 mb-20 p-10 text-black">
+        <main className="w-full screen-max-width grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 grid-flow-dense gap-4 mt-20 mb-20 p-6 md:p-10 text-black">
             <div className="grid-item card col-span-1 sm:col-span-2 row-span-1 sm:row-span-4"><IntroductionCard/></div>
             <div className="grid-item card col-span-1 sm:col-span-2 row-span-1"><SkillsMarquee/></div>
             <div className="grid-item card col-span-1 row-span-1 sm:row-span-3"><CredentialCard/></div>

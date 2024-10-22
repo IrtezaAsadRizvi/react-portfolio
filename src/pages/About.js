@@ -21,12 +21,13 @@ const About = () => {
         })
     }, [])
     return (
-        <main className="w-full screen-max-width mt-20 mb-20 p-10 text-black">
+        <main className="w-full screen-max-width mt-20 mb-20 p-6 md:p-10 text-black">
             <section className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-4">
                 <div className="grid-item card col-span-1 md:col-span-1"><PortraitCard/></div>
                 <div className="grid-item col-span-1 md:col-span-2">
-                    <h1 className="text-white text-6xl uppercase font-bold text-center mb-6 
-                        after:content-starBigIcon before:content-starBigIcon after:ml-2 before:mr-2
+                    <h1 className="text-white text-2xl md:text-6xl flex items-center justify-center uppercase font-bold text-center mb-6 
+                        after:content-starBigIcon before:content-starBigIcon after:ml-2 before:mr-2 
+                        after:block before:block 
                         after:relative before:relative after:top-1 before:top-1">Personal Info</h1>
                     <div className="card">
                         <PersonalInfoCard/>
