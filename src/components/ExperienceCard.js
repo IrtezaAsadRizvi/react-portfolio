@@ -2,7 +2,12 @@ import { Experience } from "../contents"
 const ExperienceCard = () => {
     return (
         <div className="p-6">
-            <h3 className="text-base uppercase text-white font-semibold mb-6">Experience</h3>
+            <h3 className="text-base uppercase text-white font-semibold mb-6 flex items-start gap-2">
+                Experience
+                <a href="https://www.linkedin.com/in/irtezaasad/" target="_blank">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+            </h3>
             <ul>
                 {Experience.map((item, index) => (
                     <li className="relative pb-8 last:pb-0 pl-6 after:inline-block after:absolute after:top-8 
